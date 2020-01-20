@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:id="@+id/imv_foto1"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_width="wrap_content"
+        android:layout_height="146dp"
+        android:layout_gravity="center"
+        android:contentDescription="TODO"
+        android:padding="20px" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_gravity="center"
+            android:layout_width="14dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_perfil_nombre" />
+
+        <TextView
+            android:id="@+id/txt_userId"
+            android:background="@color/colorCaja"
+            android:layout_width="320dp"
+            android:layout_height="44dp"
+            android:padding="20px"
+            android:text="Nombre"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_gravity="center"
+            android:layout_width="14dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_perfil_direccion" />
+
+        <TextView
+            android:id="@+id/txt_nombre"
+            android:background="@color/colorCaja"
+            android:layout_width="318dp"
+            android:layout_height="44dp"
+            android:padding="20px"
+            android:text="Dirección"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_perfil_email" />
+
+        <TextView
+            android:id="@+id/txt_correo"
+            android:background="@color/colorCaja"
+            android:layout_width="320dp"
+            android:layout_height="44dp"
+            android:padding="5dp"
+            android:text="Email"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="98dp"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="14dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_perfil_telefono" />
+
+        <TextView
+            android:id="@+id/txt_numero"
+            android:background="@color/colorCaja"
+            android:layout_width="320dp"
+            android:layout_height="44dp"
+            android:padding="5dp"
+            android:text="Número Celular"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <Button
+            android:id="@+id/btn_edit"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:onClick="editarPerfil"
+            android:text="Editar" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:onClick="cerrarSesion"
+            android:text="Cerrar Sesión" />
+    </LinearLayout>
+
+</LinearLayout>

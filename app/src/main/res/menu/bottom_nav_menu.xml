@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Noticias" />
+
+    <item
+        android:id="@+id/navigation_mascota"
+        android:icon="@drawable/ic_mascota_black_24dp"
+        android:title="Mi mascota" />
+
+    <item
+        android:id="@+id/navigation_recordatorios"
+        android:icon="@drawable/ic_recordatorios_black_24dp"
+        android:title="Recordatorios" />
+
+    <item
+        android:id="@+id/navigation_perfil"
+        android:icon="@drawable/ic_perfil_black_24dp"
+        android:title="Perfil" />
+
+</menu>

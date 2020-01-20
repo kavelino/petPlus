@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "542926688428",
+    "firebase_url": "https://petplus-7cd0d.firebaseio.com",
+    "project_id": "petplus-7cd0d",
+    "storage_bucket": "petplus-7cd0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542926688428:android:2165c6db383bf88bca8f09",
+        "android_client_info": {
+          "package_name": "com.example.petplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542926688428-iq0l6tfam2606dae0eush7u95qj4h1ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petplus",
+            "certificate_hash": "884f36d98f6210944df3d09a8af6a8bb1c7a14b1"
+          }
+        },
+        {
+          "client_id": "542926688428-vv1ee0vj5npfpis6vj90qnls7o83u77u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFKOEScJfUFwf310unbyOeLosc7A65NE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542926688428-vv1ee0vj5npfpis6vj90qnls7o83u77u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PetPlus</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Noticias</string>
+    <string name="title_mascota">Mi Mascota</string>
+    <string name="title_recordatorios">Recordatorios</string>
+    <string name="title_perfil">Perfil</string>
+    <string name="day_hoy">\            Hoy</string>
+    <string name="btn_buscar">Buscar</string>
+    <string name="textInicioSesion">TextView</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
