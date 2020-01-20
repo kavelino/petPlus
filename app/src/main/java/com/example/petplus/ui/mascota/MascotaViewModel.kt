@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel
 class MascotaViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is dashboard Fragment"
+        value = "Este es el perfil de mi mascota"
     }
     val text: LiveData<String> = _text
 }
