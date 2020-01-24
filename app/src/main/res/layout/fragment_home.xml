@@ -24,14 +24,17 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/btn_buscar" />
+
     </LinearLayout>
 
-    <fragment
-        android:id="@+id/youtubeplayerfragment"
-        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_alignParentRight="true"
-        android:layout_weight="8" />
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:id="@+id/videoView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
 
 </LinearLayout>
